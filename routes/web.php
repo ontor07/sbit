@@ -34,6 +34,7 @@ Route::controller(frontedController::class)->group(function () {
     Route::get('/about', 'about');
     Route::get('/team', 'team');
     Route::get('/contact', 'contact');
+    Route::get('/photo_gallery', 'photo_gallery');
 
    
 });

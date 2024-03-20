@@ -22,4 +22,8 @@ class frontedController extends Controller
     {
         return view("fronted.contact");
     }
+    public function photo_gallery()
+    {
+        return view("fronted.photo_gallery");
+    }
 }
