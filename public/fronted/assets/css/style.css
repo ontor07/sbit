@@ -225,7 +225,7 @@ div#navbarCollapse {
   background: #ffffff;
 }
 .container-fluid.project {
-  background: #f5f7fa;
+  background: #fff;
 }
 .container-fluid.team {
   background: #f5f7fa;
@@ -720,4 +720,26 @@ footer{
 }
 .member:hover {
   transform: translateY(-10px);
+}
+
+
+.image-gallery {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 244px));
+  grid-gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+.image-gallery img {
+  background-position: top;
+  background-size: cover;
+  height: 115px;
+  width: 130px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.image-gallery img:hover {
+  box-shadow: none;
+  transform: scale(1.1);
 }

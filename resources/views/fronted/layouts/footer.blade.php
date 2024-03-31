@@ -43,13 +43,13 @@
                                     <a href="https://www.facebook.com/sbit.com.bd" target="_blank">
                                         <i class="fab fa-facebook" style="color: #ffffff;"></i>
                                     </a>
-                                    <a href="https://www.facebook.com/sbit.com.bd" target="_blank">
+                                    <a href="https://twitter.com/sbit_com_bd" target="_blank">
                                         <i class="fab fa-twitter" style="color: #ffffff;"></i>
                                     </a>
-                                    <a href="https://www.facebook.com/sbit.com.bd" target="_blank">
+                                    <a href="https://www.linkedin.com/company/sbit-com-bd/" target="_blank">
                                         <i class="fab fa-linkedin" style="color: #ffffff;"></i>
                                     </a>
-                                    <a href="https://www.facebook.com/sbit.com.bd" target="_blank">
+                                    <a href="https://www.youtube.com/@sbit4768/featured" target="_blank">
                                         <i class="fab fa-youtube" style="color: #ffffff;"></i>
                                     </a>
                                    
