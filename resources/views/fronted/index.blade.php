@@ -18,7 +18,7 @@
                     <a href="{{url('contact')}}" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contact Us</a>
                 </div>
                 <div class="col-lg-6 align-self-end text-center text-lg-end">
-                    <img class="img-fluid" src="{{ asset('') }}fronted/assets/img/banner-img.png" alt="">
+                    <img class="img-fluid" src="{{ asset('') }}fronted/assets/img/pngwing.com.png" alt="">
                 </div>
             </div>
         </div>
@@ -65,7 +65,6 @@
                                 <div class="services-content-icon">
                                     <i class="fa fa-code fa-7x mb-4 text-primary"></i>
                                     <h4 class="mb-3">Web Design</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
                                     
                                 </div>
                             </div>
@@ -77,7 +76,6 @@
                                 <div class="services-content-icon">
                                     <i class="fa fa-file-code fa-7x mb-4 text-primary"></i>
                                     <h4 class="mb-3">Web Development</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
                                     
                                 </div>
                             </div>
@@ -88,8 +86,7 @@
                             <div class="p-4 text-center services-content">
                                 <div class="services-content-icon">
                                     <i class="fa fa-external-link-alt fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">UI/UX Design</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
+                                    <h4 class="mb-3">Graphic Design</h4>
                                     
                                 </div>
                             </div>
@@ -101,7 +98,6 @@
                                 <div class="services-content-icon">
                                     <i class="fas fa-user-secret fa-7x mb-4 text-primary"></i>
                                     <h4 class="mb-3">Web Security</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
                                     
                                 </div>
                                 
@@ -114,7 +110,6 @@
                                 <div class="services-content-icon">
                                     <i class="fa fa-envelope-open fa-7x mb-4 text-primary"></i>
                                     <h4 class="mb-3">Digital Marketing</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
                                     
                                 </div>
                             </div>
@@ -126,8 +121,6 @@
                                 <div class="services-content-icon">
                                     <i class="fas fa-laptop fa-7x mb-4 text-primary"></i>
                                     <h4 class="mb-3">Basic Computer</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    
                                 </div>
                             </div>
                         </div>
@@ -141,8 +134,8 @@
                 <div class="container-fluid project py-5">
                     <div class="container">
                         <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
-                            <h1 class="text-primary">Our Project</h1>
-                            <h5>Our Recently Completed Projects</h5>
+                            <h1 class="text-primary">Our Product</h1>
+                            <!-- <h5>Our Recently Completed Projects</h5> -->
                         </div>
                         
 
@@ -150,57 +143,57 @@
                             <div class="project-item border p-4">
                                 <div class="align-items-center">
                                     <div class="text-center ">
-                                        <h4 class="text-secondary">Web design</h4>
+                                        <h4 class="text-secondary">Ecommerce Site</h4>
                                     </div>
                                     <div class="">
-                                        <img src="{{ asset('') }}fronted/assets/img/project-1.jpg" alt="">
+                                        <img src="{{ asset('') }}fronted/assets/img/ecommerce.png" alt="">
                                     </div>
                                     
                                 </div>
                                 <div class="border-top  pt-3">
-                                    <p class="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
+                                    <p class="mb-0">The basic requirements of e-commerce software can vary depending on the specific needs and goals of an e-commerce business. And this is why we are providing many more features including User-friendly interface, Product catalog management, Shopping cart functionality payment gateway integration.</p>
                                 </div>
                             </div>
                             <div class="project-item border p-4">
                                 <div class="align-items-center">
                                     <div class="text-center ">
-                                        <h4 class="text-secondary">Web Development</h4>
+                                        <h4 class="text-secondary">School Management Software</h4>
                                     </div>
                                     <div class="">
-                                        <img src="{{ asset('') }}fronted/assets/img/project-2.jpg" alt="">
+                                        <img src="{{ asset('') }}fronted/assets/img/school.png" alt="">
                                     </div>
                                     
                                 </div>
                                 <div class="border-top  pt-3">
-                                    <p class="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
+                                    <p class="mb-0">This software is packed with all important features including Student Management, Fee Management, Course Scheduling, Library Management, Reporting and Analytics</p>
                                 </div>
                             </div>
                             <div class="project-item border p-4">
                                 <div class="align-items-center">
                                     <div class="text-center ">
-                                        <h4 class="text-secondary">Digital Marketing</h4>
+                                        <h4 class="text-secondary">Inventory Software (POS)</h4>
                                     </div>
                                     <div class="">
-                                        <img src="{{ asset('') }}fronted/assets/img/project-3.jpg" alt="">
+                                        <img src="{{ asset('') }}fronted/assets/img/accounts.png" alt="">
                                     </div>
                                     
                                 </div>
                                 <div class="border-top  pt-3">
-                                    <p class="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
+                                    <p class="mb-0">A good inventory management tool must prioritize accuracy. In view of this, our software gives you many features including easy to use, accurate calculation, easy to use on mobile.</p>
                                 </div>
                             </div>
                             <div class="project-item border p-4">
                                 <div class="align-items-center">
                                     <div class="text-center ">
-                                        <h4 class="text-secondary">keyword Research</h4>
+                                        <h4 class="text-secondary">Online News Portal</h4>
                                     </div>
                                     <div class="">
-                                        <img src="{{ asset('') }}fronted/assets/img/project-4.jpg" alt="">
+                                        <img src="{{ asset('') }}fronted/assets/img/news_portal.png" alt="">
                                     </div>
                                     
                                 </div>
                                 <div class="border-top  pt-3">
-                                    <p class="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
+                                    <p class="mb-0">We are providing user friendly online news portal with the slogan "All the news of the whole world or the country is now at your fingertips". There are many features that will bring your news portal closer to people.</p>
                                 </div>
                             </div>
 

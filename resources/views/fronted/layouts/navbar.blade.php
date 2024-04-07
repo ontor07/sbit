@@ -15,16 +15,17 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                     <div class="dropdown-menu bg-light mt-2">
-                        <a href="{{url('/web_design')}}" class="dropdown-item">Web Design</a>
-                        <a href="{{url('/web_dev')}}" class="dropdown-item">Developement (PHP/Larvel)</a>
-                        <a href="{{url('/app_dev')}}" class="dropdown-item">Android App Development</a>
+                        <a href="{{url('/graphic_design')}}" class="dropdown-item">Professional Graphic Design</a>
+                        <a href="{{url('/web_design')}}" class="dropdown-item">Professional Web Design</a>
+                        <a href="{{url('/web_dev')}}" class="dropdown-item">Professional Web Developement</a>
+                        <a href="{{url('/app_dev')}}" class="dropdown-item">Professional Android App Development</a>
                         <!-- <a href="#" class="dropdown-item">Domain & Hosting Service</a> -->
-                        <a href="{{url('/seo')}}" class="dropdown-item">Search Engine Optimization (SEO)</a>
+                        <a href="{{url('/seo')}}" class="dropdown-item">Professional Search Engine Optimization (SEO)</a>
                         <!-- <a href="#" class="dropdown-item">Internship</a> -->
                     </div>
                 </div>
                 
-                <div class="nav-item dropdown">
+                <!-- <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Software </a>
                     <div class="dropdown-menu bg-light mt-2">
                         <a href="{{url('/ecommerce')}}" class="dropdown-item">E-commerce</a>
@@ -34,7 +35,7 @@
                         <a href="#" class="dropdown-item">Restaurant Management</a>
                         <a href="#" class="dropdown-item">Inventory Management System</a>
                     </div>
-                </div>
+                </div> -->
                 <a href="{{url('team')}}" class="nav-item nav-link">Our Team</a>
                 <a href="{{url('photo_gallery')}}" class="nav-item nav-link">Photo Gallery</a>
                 <a href="{{url('contact')}}" class="nav-item nav-link">Contact</a>
