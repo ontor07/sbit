@@ -15,20 +15,19 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                     <div class="dropdown-menu bg-light mt-2">
-                        <a href="#" class="dropdown-item">Web Design & Developement</a>
-                        <a href="#" class="dropdown-item">Android App Development</a>
-                        <a href="#" class="dropdown-item">Domain & Hosting Service</a>
-                        <a href="#" class="dropdown-item">Search Engine Optimization (SEO)</a>
-                        <a href="#" class="dropdown-item">Internship</a>
-                        <a href="#" class="dropdown-item">Courses</a>
+                        <a href="{{url('/web_design')}}" class="dropdown-item">Web Design</a>
+                        <a href="{{url('/web_dev')}}" class="dropdown-item">Developement (PHP/Larvel)</a>
+                        <a href="{{url('/app_dev')}}" class="dropdown-item">Android App Development</a>
+                        <!-- <a href="#" class="dropdown-item">Domain & Hosting Service</a> -->
+                        <a href="{{url('/seo')}}" class="dropdown-item">Search Engine Optimization (SEO)</a>
+                        <!-- <a href="#" class="dropdown-item">Internship</a> -->
                     </div>
                 </div>
-                
                 
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Software </a>
                     <div class="dropdown-menu bg-light mt-2">
-                        <a href="#" class="dropdown-item">E-commerce</a>
+                        <a href="{{url('/ecommerce')}}" class="dropdown-item">E-commerce</a>
                         <a href="#" class="dropdown-item">School Management System</a>
                         <a href="#" class="dropdown-item">POS System</a>
                         <a href="#" class="dropdown-item">Pharmacy Management System</a>

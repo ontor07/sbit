@@ -32,6 +32,11 @@ use App\Http\Controllers\HomeSettingController;
 Route::controller(frontedController::class)->group(function () {
     Route::get('/', 'index');    
     Route::get('/about', 'about');
+    Route::get('/web_design', 'web_design');
+    Route::get('/web_dev', 'web_dev');
+    Route::get('/app_dev', 'app_dev');
+    Route::get('/ecommerce', 'ecommerce');
+    Route::get('/seo', 'seo');
     Route::get('/team', 'team');
     Route::get('/contact', 'contact');
     Route::get('/photo_gallery', 'photo_gallery');

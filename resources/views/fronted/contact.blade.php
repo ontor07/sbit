@@ -20,48 +20,79 @@
                 <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
                     <h5 class="text-primary">Get In Touch</h5>
                     <h1 class="mb-3">Contact for any query</h1>
-                    <p class="mb-2">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done.</p>
+                    <p class="mb-2">The contact form is currently inactive.</p>
                 </div>
-                <div class="contact-detail position-relative p-5">
-                    <div class="row g-5 mb-5 justify-content-center">
-                        <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".3s">
-                            <div class="d-flex bg-light p-3 rounded">
-                                <div class="flex-shrink-0 btn-square bg-warning  rounded-circle" style="width: 64px; height: 64px;">
-                                    <i class="fas fa-map-marker-alt text-white"></i>
-                                </div>
-                                <div class="ms-3">
-                                    <h4 class="text-primary">Address</h4>
-                                    <a href="https://goo.gl/maps/Zd4BCynmTb98ivUJ6" target="_blank" class="h5">23 rank Str, NY</a>
+                <div class="row">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay=".3s">
+                        <div class="p-5 h-100 rounded contact-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.483946360944!2d90.36854347484837!3d23.836943085449285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c1a6ee7a7339%3A0x7a8f026abc0c0c4f!2sSkill%20Based%20IT-%20SBIT!5e0!3m2!1sen!2sbd!4v1712139696316!5m2!1sen!2sbd" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay=".3s">
+                        <div class="p-5 h-100 rounded contact-map">
+                            <div class="text-center">
+                                <h2>Head Office [Dhaka]</h2>
+                                <div class="box-dtails">
+                                    House # 535, Avenue # 5, Road # 8<br>
+                                    Mirpur DOHS<br>
+                                    Mirpur, Dhaka-1216.<br>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".5s">
-                            <div class="d-flex bg-light p-3 rounded">
-                                <div class="flex-shrink-0 btn-square bg-warning rounded-circle" style="width: 64px; height: 64px;">
-                                    <i class="fa fa-phone text-white"></i>
-                                </div>
-                                <div class="ms-3">
-                                    <h4 class="text-primary">Call Us</h4>
-                                    <a class="h5" href="tel:+0123456789" target="_blank">+012 3456 7890</a>
+                            <div class="text-center mt-3">
+                                <h6>Phone Number</h6>
+                                <div class="box-dtails">
+                                    +8801840241895<br>
+                                    +880 1842-981245<br>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".7s">
-                            <div class="d-flex bg-light p-3 rounded">
-                                <div class="flex-shrink-0 btn-square bg-warning  rounded-circle" style="width: 64px; height: 64px;">
-                                    <i class="fa fa-envelope text-white"></i>
-                                </div>
-                                <div class="ms-3">
-                                    <h4 class="text-primary">Email Us</h4>
-                                    <a class="h5" href="mailto:info@example.com" target="_blank">info@example.com</a>
+                            <div class="text-center mt-3">
+                                <h6>Email Address</h6>
+                                <div class="box-dtails">
+                                    sbit.marketingteam@gmail.com
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-lg-6 wow fadeIn mt-4" data-wow-delay=".3s">
+                        <div class="p-5 h-100 rounded contact-map">
+                            <h5 class="text-center mb-3">Feni Office</h5>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.273462644854!2d91.39654507482406!3d23.01372941665911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37536836ba1a6935%3A0x8c51de81f4d7516d!2sSkill%20Based%20Information%20Technology%2C%20Mizan%20Rd%2C%20Feni%203900!5e0!3m2!1sen!2sbd!4v1712139735525!5m2!1sen!2sbd" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn mt-4" data-wow-delay=".3s">
+                        <div class="p-5 h-100 rounded contact-map">
+                            <div class="text-center">
+                                <h2>Feni Office</h2>
+                                <div class="box-dtails">
+                                    Yousuf Tower (1st Floor),<br>
+                                    Hazi Fazal Master Lane,<br>
+                                    Mizan Road Feni.<br>
+                                    3900 Feni, Bangladesh.<br>
+                                </div>
+                            </div>
+                            <div class="text-center mt-3">
+                                <h6>Phone Number</h6>
+                                <div class="box-dtails">
+                                    +8801840241895<br>
+                                    +880 1842-981245<br>
+                                </div>
+                            </div>
+                            <div class="text-center mt-3">
+                                <h6>Email Address</h6>
+                                <div class="box-dtails">
+                                    sbit.marketingteam@gmail.com
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-detail position-relative p-5 mt-5">
                     <div class="row g-5">
                         <div class="col-lg-6 wow fadeIn" data-wow-delay=".3s">
-                            <div class="p-5 h-100 rounded contact-map">
-                                <iframe class="rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.4710403339755!2d-73.82241512404069!3d40.685622471397615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c26749046ee14f%3A0xea672968476d962c!2s123rd%20St%2C%20Queens%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1686493221834!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div>
+                                <h1>Learn More About Skill Based IT</h1>
+                                <span class="text-dark">Fill out this form and we'll reach out to help find the best plan option for you.</span>
                             </div>
                         </div>
                         <div class="col-lg-6 wow fadeIn" data-wow-delay=".5s">
