@@ -28,21 +28,21 @@
                             <div class="col-4">
                                 <ul>
                                     <li>Duration
-                                        <span>5 Month</span>
+                                        <span>8 Month</span>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-4">
                                 <ul>
                                     <li>Lectures
-                                        <span>40<span>
+                                        <span>50<span>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-4">
                                 <ul>
                                     <li>Projects
-                                        <span>2</span>
+                                        <span>6</span>
                                     </li>
                                 </ul>
                             </div>

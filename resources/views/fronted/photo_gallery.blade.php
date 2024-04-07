@@ -33,22 +33,46 @@
             <div class="gallery-wrapper">
                 <div class="gallery-inner">
                     <div class="gallery-img">
-                        <img src="https://demo.epic-webdesign.com/tf-fable/cafe/images/food2.jpg" alt="">
+                        <img src="{{ asset('') }}fronted/assets/img/photo_gallery/297823400_444118387728169_307675591879714220_n.jpg" alt="" class="img-fluid"> 
                     </div>
                     <div class="gallery-img">
-                        <img src="https://demo.epic-webdesign.com/tf-fable/cafe/images/food3.jpg" alt="">
+                        <img src="{{ asset('') }}fronted/assets/img/photo_gallery/298065971_444118197728188_8572223107691419408_n.jpg" alt="" class="img-fluid"> 
                     </div>
                     <div class="gallery-img">
-                        <img src="https://demo.epic-webdesign.com/tf-fable/cafe/images/food10.jpg" alt="">
+                        <img src="{{ asset('') }}fronted/assets/img/photo_gallery/298620324_444117551061586_417428412640436338_n.jpg" alt="" class="img-fluid"> 
                     </div>
                     <div class="gallery-img">
-                        <img src="https://demo.epic-webdesign.com/tf-fable/cafe/images/food5.jpg" alt="">
+                        <img src="{{ asset('') }}fronted/assets/img/photo_gallery/354573474_667421262064546_1921298831171573291_n.jpg" alt="" class="img-fluid"> 
                     </div>
                     <div class="gallery-img">
-                        <img src="https://demo.epic-webdesign.com/tf-fable/cafe/images/food6.jpg" alt="">
+                        <img src="{{ asset('') }}fronted/assets/img/photo_gallery/368845954_706807741459231_7360259056992716185_n.jpg" alt="" class="img-fluid"> 
                     </div>
                     <div class="gallery-img">
-                        <img src="https://demo.epic-webdesign.com/tf-fable/cafe/images/food8.jpg" alt="">
+                        <img src="{{ asset('') }}fronted/assets/img/photo_gallery/369342852_706807991459206_6299981086978578721_n.jpg" alt="" class="img-fluid"> 
+                    </div>
+                    <div class="gallery-img">
+                        <img src="{{ asset('') }}fronted/assets/img/photo_gallery/369351248_706794614793877_7159887613140374286_n.jpg" alt="" class="img-fluid"> 
+                    </div>
+                    <div class="gallery-img">
+                        <img src="{{ asset('') }}fronted/assets/img/photo_gallery/369366377_706807958125876_7601171915669131977_n.jpg" alt="" class="img-fluid"> 
+                    </div>
+                    <div class="gallery-img">
+                        <img src="{{ asset('') }}fronted/assets/img/photo_gallery/369445334_706806854792653_3993483308885579256_n.jpg" alt="" class="img-fluid"> 
+                    </div>
+                    <div class="gallery-img">
+                        <img src="{{ asset('') }}fronted/assets/img/photo_gallery/370136522_706796784793660_5802392562034130095_n.jpg" alt="" class="img-fluid"> 
+                    </div>
+                    <div class="gallery-img">
+                        <img src="{{ asset('') }}fronted/assets/img/photo_gallery/372836484_710969111043094_3424876561520154826_n.jpg" alt="" class="img-fluid"> 
+                    </div>
+                    <div class="gallery-img">
+                        <img src="{{ asset('') }}fronted/assets/img/photo_gallery/378827248_721233760016629_361007744152670973_n.jpg" alt="" class="img-fluid"> 
+                    </div>
+                    <div class="gallery-img">
+                        <img src="{{ asset('') }}fronted/assets/img/photo_gallery/387802795_737555985051073_3443276810376548338_n.jpg" alt="" class="img-fluid"> 
+                    </div>
+                    <div class="gallery-img">
+                        <img src="{{ asset('') }}fronted/assets/img/photo_gallery/391713759_737556218384383_6030230575615886478_n.jpg" alt="" class="img-fluid"> 
                     </div>
                 </div>
             </div>

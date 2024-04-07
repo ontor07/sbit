@@ -14,6 +14,10 @@ class frontedController extends Controller
     {
         return view("fronted.about");
     }
+    public function graphic_design()
+    {
+        return view("fronted.graphic_design");
+    }
     public function web_design()
     {
         return view("fronted.web_design");
