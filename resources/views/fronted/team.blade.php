@@ -4,12 +4,10 @@
 
     <!-- Navbar Start -->
     <div class="container-fluid  page-header ">
-
         @include('fronted.layouts.navbar')
         
         <div class="container text-center py-5">
             <h4 class="display-2 text-white mb-4 mt-1 animated slideInDown">Our Team</h4>
-        
         </div>
     </div>
 <!-- Navbar End -->
@@ -20,10 +18,10 @@
             <div class=" col-lg-6 wow fadeIn" style="margin: 0px auto;">
                 <div class="member d-flex align-items-start" >
                     <div class="pic">
-                        <img alt="" class="img-fluid" src="{{ asset('') }}fronted/assets/img/team-2.jpg">
+                        <img alt="" class="img-fluid" src="{{ asset('') }}fronted/assets/img/man.png">
                     </div> 
                     <div class="member-info">
-                        <h4 class="text-uppercase">Md. Abdul Mannan Sourov</h4> <span>Project Manager</span> 
+                        <h4 class="text-uppercase">Md. Abdul Mannan Sourov</h4> <span>CEO</span> 
                         <p>14 Years Experiences.</p> 
                         <div class="social">
                             <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-facebook"></i></a> 
@@ -37,10 +35,40 @@
                     <div class=" col-lg-6 mt-5 wow fadeIn">
                         <div class="member d-flex align-items-start" style="margin: 0px auto;">
                             <div class="pic">
-                                <img alt="" class="img-fluid" src="{{ asset('') }}fronted/assets/img/team-2.jpg">
+                                <img alt="" class="img-fluid" src="{{ asset('') }}fronted/assets/img/man.png">
                             </div> 
                             <div class="member-info">
                                 <h4 class="text-uppercase">Manjur Ajad</h4> <span>Project Manager</span> 
+                                <p>8 Years Experiences.</p> 
+                                <div class="social">
+                                    <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-facebook"></i></a> 
+                                    <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-twitter"></i></a> 
+                                    <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-instagram"></i></a> 
+                                    <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-linkedin"></i></a></div></div>
+                                </div>
+                            </div>
+                    <div class=" col-lg-6 mt-5 wow fadeIn">
+                        <div class="member d-flex align-items-start" style="margin: 0px auto;">
+                            <div class="pic">
+                                <img alt="" class="img-fluid" src="{{ asset('') }}fronted/assets/img/man.png">
+                            </div> 
+                            <div class="member-info">
+                                <h4 class="text-uppercase">Samsul Karim Tanim</h4> <span>Senior Developer</span> 
+                                <p>5 Years Experiences.</p> 
+                                <div class="social">
+                                    <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-facebook"></i></a> 
+                                    <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-twitter"></i></a> 
+                                    <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-instagram"></i></a> 
+                                    <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-linkedin"></i></a></div></div>
+                                </div>
+                    </div>
+                    <div class=" col-lg-6 mt-5 wow fadeIn">
+                        <div class="member d-flex align-items-start" style="margin: 0px auto;">
+                            <div class="pic">
+                                <img alt="" class="img-fluid" src="{{ asset('') }}fronted/assets/img/man.png">
+                            </div> 
+                            <div class="member-info">
+                                <h4 class="text-uppercase">Rifat Rabby</h4> <span>Java Application Developer</span> 
                                 <p>6 Years Experiences.</p> 
                                 <div class="social">
                                     <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-facebook"></i></a> 
@@ -52,41 +80,11 @@
                     <div class=" col-lg-6 mt-5 wow fadeIn">
                         <div class="member d-flex align-items-start" style="margin: 0px auto;">
                             <div class="pic">
-                                <img alt="" class="img-fluid" src="{{ asset('') }}fronted/assets/img/team-2.jpg">
-                            </div> 
-                            <div class="member-info">
-                                <h4 class="text-uppercase">Samsul Karim Tanim</h4> <span>Senior Developer</span> 
-                                <p>4 Years Experiences.</p> 
-                                <div class="social">
-                                    <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-facebook"></i></a> 
-                                    <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-twitter"></i></a> 
-                                    <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-instagram"></i></a> 
-                                    <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-linkedin"></i></a></div></div>
-                                </div>
-                    </div>
-                    <div class=" col-lg-6 mt-5 wow fadeIn">
-                        <div class="member d-flex align-items-start" style="margin: 0px auto;">
-                            <div class="pic">
-                                <img alt="" class="img-fluid" src="{{ asset('') }}fronted/assets/img/team-2.jpg">
-                            </div> 
-                            <div class="member-info">
-                                <h4 class="text-uppercase">Rifat Rabby</h4> <span>Java Application Developer</span> 
-                                <p>7 Years Experiences.</p> 
-                                <div class="social">
-                                    <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-facebook"></i></a> 
-                                    <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-twitter"></i></a> 
-                                    <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-instagram"></i></a> 
-                                    <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-linkedin"></i></a></div></div>
-                                </div>
-                    </div>
-                    <div class=" col-lg-6 mt-5 wow fadeIn">
-                        <div class="member d-flex align-items-start" style="margin: 0px auto;">
-                            <div class="pic">
-                                <img alt="" class="img-fluid" src="{{ asset('') }}fronted/assets/img/team-2.jpg">
+                                <img alt="" class="img-fluid" src="{{ asset('') }}fronted/assets/img/man.png">
                             </div> 
                             <div class="member-info">
                                 <h4 class="text-uppercase">Mobinul Islam Tazim</h4> <span>PHP/Laravel Developer</span> 
-                                <p>4 Years Experiences.</p> 
+                                <p>3 Years Experiences.</p> 
                                 <div class="social">
                                     <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-facebook"></i></a> 
                                     <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-twitter"></i></a> 
@@ -97,11 +95,11 @@
                     <div class=" col-lg-6 mt-5 wow fadeIn">
                         <div class="member d-flex align-items-start" style="margin: 0px auto;">
                             <div class="pic">
-                                <img alt="" class="img-fluid" src="{{ asset('') }}fronted/assets/img/team-2.jpg">
+                                <img alt="" class="img-fluid" src="{{ asset('') }}fronted/assets/img/man.png">
                             </div> 
                             <div class="member-info">
-                                <h4 class="text-uppercase">Mohammad Ala Uddin</h4> <span>PHP/Laravel Developer</span> 
-                                <p>4 Years Experiences.</p> 
+                                <h4 class="text-uppercase">Mohammad Ala Uddin</h4> <span>Web Designer</span> 
+                                <p>3 Years Experiences.</p> 
                                 <div class="social">
                                     <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-facebook"></i></a> 
                                     <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-twitter"></i></a> 
@@ -112,11 +110,11 @@
                     <div class=" col-lg-6 mt-5 wow fadeIn">
                         <div class="member d-flex align-items-start" style="margin: 0px auto;">
                             <div class="pic">
-                                <img alt="" class="img-fluid" src="{{ asset('') }}fronted/assets/img/team-2.jpg">
+                                <img alt="" class="img-fluid" src="{{ asset('') }}fronted/assets/img/man.png">
                             </div> 
                             <div class="member-info">
-                                <h4 class="text-uppercase">Md. Abdul Mannan Sourov</h4> <span>Project Manager</span> 
-                                <p>10 Years Experiences.</p> 
+                                <h4 class="text-uppercase">Mohammad Shahadat Hossain Sujon</h4> <span>Marketing Manager</span> 
+                                <p>8 Years Experiences.</p> 
                                 <div class="social">
                                     <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-facebook"></i></a> 
                                     <a target="_blank" href="https://www.facebook.com/sourov.uiu"><i class="fab fa-twitter"></i></a> 
