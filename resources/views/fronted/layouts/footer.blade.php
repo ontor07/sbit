@@ -85,15 +85,204 @@
 
         
         <!-- JavaScript Libraries -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
         <script src="{{ asset('') }}fronted/assets/lib/wow/wow.min.js"></script>
         <script src="{{ asset('') }}fronted/assets/lib/easing/easing.min.js"></script>
         <script src="{{ asset('') }}fronted/assets//waypoints/waypoints.min.js"></script>
         <script src="{{ asset('') }}fronted/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="https://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
 
         <!-- Template Javascript -->
         <script src="{{ asset('') }}fronted/assets/js/main.js"></script>
+
+        <script>
+
+        $("#loading").hide();
+
+    $('#form-data').submit(function(e){
+
+        e.preventDefault();
+
+        $('#name').on('keyup',function(){
+            $('#name').removeClass('is-invalid');
+        });
+        $('#email').on('keyup',function(){
+            $('#email').removeClass('is-invalid');
+        });
+        $('#phone').on('keyup',function(){
+            $('#phone').removeClass('is-invalid');
+        });
+        $('#message').on('keyup',function(){
+            $('#message').removeClass('is-invalid');
+        });
+
+        var name = $('#name').val();
+
+        var email = $('#email').val();
+
+        var phone = $('#phone').val();
+
+        var message = $('#message').val();
+
+        if(name == "")
+        {
+            $('#name').addClass('is-invalid');
+        }
+        else if(email == "")
+        {
+            $('#email').addClass('is-invalid');
+        }
+        else if(phone == "")
+        {
+            $('#phone').addClass('is-invalid');
+        }
+        else if(message == "")
+        {
+            $('#message').addClass('is-invalid');
+        }
+        else
+        {
+            $.ajax({
+                headers:{
+                    'X-CSRF-TOKEN' : '{{ csrf_token() }}'
+                },
+                url : '{{ url('sendMessage') }}',
+
+                type : 'POST',
+
+                data : new FormData(this),
+
+                cache:false,
+
+                contentType: false,
+
+                processData: false,
+
+                beforeSend : function()
+                {
+                    $('#loading').show();
+                    $('#submit').hide();
+                },
+                success : function(data)
+                {
+                    if(data == 1)
+                    {
+                        toastr.success('Message sent successfully. You will recive a email from us', 'Success');
+                        $('#loading').hide();
+                        $('#submit').show();
+                    }
+                    else
+                    {
+                        toastr.success('Message sent Unsuccessfully.', 'Error');
+                        $('#loading').hide();
+                        $('#submit').show();
+
+                    }
+
+                }
+            });
+        }
+
+    });
+</script>
+
+<script>
+
+        
+
+    $('#formData').submit(function(e){
+
+        e.preventDefault();
+
+        $('#name').on('keyup',function(){
+            $('#name').removeClass('is-invalid');
+        });
+        $('#email').on('keyup',function(){
+            $('#email').removeClass('is-invalid');
+        });
+        $('#phone').on('keyup',function(){
+            $('#phone').removeClass('is-invalid');
+        });
+        $('#course').on('keyup',function(){
+            $('#course').removeClass('is-invalid');
+        });
+        $('#course_type').on('keyup',function(){
+            $('#course_type').removeClass('is-invalid');
+        });
+
+        var name = $('#name').val();
+
+        var email = $('#email').val();
+
+        var phone = $('#phone').val();
+
+        var course = $('#course').val();
+
+        var course_type = $('#course_type').val();
+
+        if(name == "")
+        {
+            $('#name').addClass('is-invalid');
+        }
+        else if(email == "")
+        {
+            $('#email').addClass('is-invalid');
+        }
+        else if(phone == "")
+        {
+            $('#phone').addClass('is-invalid');
+        }
+        else if(course == "")
+        {
+            $('#course').addClass('is-invalid');
+        }
+        else if(course_type == "")
+        {
+            $('#course_type').addClass('is-invalid');
+        }
+        else
+        {
+            $.ajax({
+                headers:{
+                    'X-CSRF-TOKEN' : '{{ csrf_token() }}'
+                },
+                url : '{{ url('OurCourse') }}',
+
+                type : 'POST',
+
+                data : new FormData(this),
+
+                cache:false,
+
+                contentType: false,
+
+                processData: false,
+
+                beforeSend : function()
+                {
+                    $('#submit').show();
+                },
+                success : function(data)
+                {
+                    if(data == 1)
+                    {
+                        toastr.success('Admission Add successfully. We Will Inform Your Letter', 'Success');
+                        $('#submit').show();
+                    }
+                    else
+                    {
+                        toastr.success('Admission Add Unsuccessfully.', 'Error');
+                        $('#submit').show();
+
+                    }
+
+                }
+            });
+        }
+
+    });
+</script>
 
 
     </body>

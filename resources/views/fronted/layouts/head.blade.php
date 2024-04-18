@@ -26,4 +26,5 @@
 
         <!-- Template Stylesheet -->
         <link href="{{ asset('') }}fronted/assets/css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css">
     </head>

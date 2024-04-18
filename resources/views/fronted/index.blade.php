@@ -323,9 +323,7 @@
                                     <div>
                                         <img src="{{ asset('') }}fronted/assets/img/cpghs.png" alt="" class="img-fluid">
                                     </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/alhelal.png" alt="" class="img-fluid">
-                                    </div>
+                                    
                                     <div>
                                         <img src="{{ asset('') }}fronted/assets/img/metro.jpg" alt="" class="img-fluid"> 
                                     </div>
@@ -418,9 +416,7 @@
                                     <div>
                                         <img src="{{ asset('') }}fronted/assets/img/cpghs.png" alt="" class="img-fluid">
                                     </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/alhelal.png" alt="" class="img-fluid">
-                                    </div>
+                                    
                                     <div>
                                         <img src="{{ asset('') }}fronted/assets/img/metro.jpg" alt="" class="img-fluid"> 
                                     </div>
@@ -653,7 +649,7 @@
                                 <img src="{{ asset('') }}fronted/assets/img/manicon.png" alt="">
                             </div>
                             <div class="ms-4">
-                                <h4 class="text-secondary">Moktar Hossain</h4>
+                                <h5 class="text-secondary">Moktar Hossain</h5>
                                 <p class="m-0 pb-3">Principal, Feni Governtment College</p>
                                 <div class="d-flex pe-5">
                                     <i class="fas fa-star me-1 text-primary"></i>
@@ -665,7 +661,7 @@
                             </div>
                         </div>
                         <div class="border-top mt-4 pt-3">
-                            <p class="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
+                            <p class="mb-0"></p>
                         </div>
                     </div>
                     <div class="testimonial-item border p-4">
@@ -674,7 +670,7 @@
                                 <img src="{{ asset('') }}fronted/assets/img/womanicon.png" alt="">
                             </div>
                             <div class="ms-4">
-                                <h4 class="text-secondary">Professor Kamrun Nahar</h4>
+                                <h5 class="text-secondary">Professor Kamrun Nahar</h5>
                                 <p class="m-0 pb-3">Principal, Govt Zia Women's College</p>
                                 <div class="d-flex pe-5">
                                     <i class="fas fa-star me-1 text-primary"></i>
@@ -686,7 +682,7 @@
                             </div>
                         </div>
                         <div class="border-top mt-4 pt-3">
-                            <p class="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
+                            <p class="mb-0"></p>
                         </div>
                     </div>
                     <div class="testimonial-item border p-4">
@@ -695,7 +691,7 @@
                                 <img src="{{ asset('') }}fronted/assets/img/manicon.png" alt="">
                             </div>
                             <div class="ms-4">
-                                <h4 class="text-secondary">Professor Mohammad Khalilur Rahman</h4>
+                                <h5 class="text-secondary">Professor Mohammad Khalilur Rahman</h5>
                                 <p class="m-0 pb-3">Principal, Chagalnaya Govt College</p>
                                 <div class="d-flex pe-5">
                                     <i class="fas fa-star me-1 text-primary"></i>
@@ -707,7 +703,7 @@
                             </div>
                         </div>
                         <div class="border-top mt-4 pt-3">
-                            <p class="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
+                            <p class="mb-0"></p>
                         </div>
                     </div>
                     <div class="testimonial-item border p-4">
@@ -716,7 +712,7 @@
                                 <img src="{{ asset('') }}fronted/assets/img/manicon.png" alt="">
                             </div>
                             <div class="ms-4">
-                                <h4 class="text-secondary">Mohammad Moazzem Hossain</h4>
+                                <h5 class="text-secondary">Mohammad Moazzem Hossain</h5>
                                 <p class="m-0 pb-3">Principal, Chagalnaya Government Pilot High School</p>
                                 <div class="d-flex pe-5">
                                     <i class="fas fa-star me-1 text-primary"></i>
@@ -728,16 +724,16 @@
                             </div>
                         </div>
                         <div class="border-top mt-4 pt-3">
-                            <p class="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
+                            <p class="mb-0"></p>
                         </div>
                     </div>
-                    <div class="testimonial-item border p-4">
+                    <!-- <div class="testimonial-item border p-4">
                         <div class=" d-flex align-items-center">
                             <div class="">
                                 <img src="{{ asset('') }}fronted/assets/img/manicon.png" alt="">
                             </div>
                             <div class="ms-4">
-                                <h4 class="text-secondary">Omar Faruque</h4>
+                                <h5 class="text-secondary">Omar Faruque</h5>
                                 <p class="m-0 pb-3">Head Teacher, Al Helal Academy</p>
                                 <div class="d-flex pe-5">
                                     <i class="fas fa-star me-1 text-primary"></i>
@@ -749,9 +745,9 @@
                             </div>
                         </div>
                         <div class="border-top mt-4 pt-3">
-                            <p class="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
+                            <p class="mb-0"></p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
