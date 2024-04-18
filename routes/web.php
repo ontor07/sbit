@@ -11,6 +11,8 @@ use App\Http\Controllers\MenuController;
 use App\Http\Controllers\SoftwareSettingsController;
 use App\Http\Controllers\BackendController;
 use App\Http\Controllers\UserThemeController;
+use App\Http\Controllers\MessageController;
+use App\Http\Controllers\AdmissionDataController;
 
 // fronted 
 use App\Http\Controllers\frontedController;
@@ -41,9 +43,11 @@ Route::controller(frontedController::class)->group(function () {
     Route::get('/team', 'team');
     Route::get('/contact', 'contact');
     Route::get('/photo_gallery', 'photo_gallery');
-
-   
+    Route::post('/sendMessage', 'sendMessage');
+    Route::get('/admission', 'admission');
+    Route::post('/OurCourse', 'OurCourse');
 });
+    
 
 Route::resources([
     'home_setting'    => HomeSettingController::class,
@@ -96,8 +100,15 @@ Route::middleware('auth')->group(function () {
         'menu'          => MenuController::class,
         'software_info' => SoftwareSettingsController::class,
         'user_theme' => UserThemeController::class,
+        'messages' => MessageController::class,
+        'admission_data' => AdmissionDataController::class,
    ]);
 
+    Route::get('retrive_message/{id}', [MessageController::class, 'retrive_message']);
+    Route::get('permenantMessageDelete/{id}', [MessageController::class, 'permenantMessageDelete']);
+
+    Route::get('retrive_student_admission/{id}', [AdmissionDataController::class, 'retrive_student_admission']);
+    Route::get('permenantadmissionDelete/{id}', [AdmissionDataController::class, 'permenantadmissionDelete']);
     /*
     menu label extra routes are below
     */

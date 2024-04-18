@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\message;
+use App\Models\student_admission;
+use Brian2694\Toastr\Facades\Toastr;
 
 class frontedController extends Controller
 {
@@ -46,8 +49,53 @@ class frontedController extends Controller
     {
         return view("fronted.contact");
     }
+    public function sendMessage(Request $request)
+    {
+        $data = array(
+            'name'=>$request->name,
+            'email'=>$request->email,
+            'phone'=>$request->phone,
+            'message'=>$request->message,
+        );
+       
+        $insert = message::create($data);
+       
+        if($insert)
+        {
+            return 1;
+        }
+        else
+        {
+            return 0;
+        }
+    }
     public function photo_gallery()
     {
         return view("fronted.photo_gallery");
+    }
+    public function admission()
+    {
+        return view("fronted.admission");
+    }
+    public function OurCourse(Request $request)
+    {
+        $data = array(
+            'name'=>$request->name,
+            'email'=>$request->email,
+            'phone'=>$request->phone,
+            'course'=>$request->course,
+            'course_type'=>$request->course_type,
+        );
+       
+        $insert = student_admission::create($data);
+       
+        if($insert)
+        {
+            return 1;
+        }
+        else
+        {
+            return 0;
+        }
     }
 }

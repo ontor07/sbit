@@ -96,28 +96,30 @@
                             </div>
                         </div>
                         <div class="col-lg-6 wow fadeIn" data-wow-delay=".5s">
-                            <div class="p-5 rounded contact-form">
-                                <div class="mb-4">
-                                    <input type="text" class="form-control border-0 py-3" placeholder="Your Name">
+                            <form method="POST" id="form-data">
+                                <div class="p-5 rounded contact-form">
+                                    <div class="mb-4">
+                                        <input type="text" class="form-control border-0 py-3" placeholder="Your Name" id="name" name="name">
+                                    </div>
+                                    <div class="mb-4">
+                                        <input type="text" class="form-control border-0 py-3" placeholder="Your Email" id="email" name="email">
+                                    </div>
+                                    <div class="mb-4">
+                                        <input type="number" class="form-control border-0 py-3" placeholder="Phone Number" id="phone" name="phone">
+                                    </div>
+                                    <div class="mb-4">
+                                        <textarea class="w-100 form-control border-0 py-3" rows="6" cols="10" placeholder="Message" id="message" name="message"></textarea>
+                                    </div>
+                                    <div class="text-start">
+                                        <button class="btn btn-primary w-100 py-3" type="submit" id="submit">Send Message</button>
+                                        <button class="btn btn-primary w-100 py-3" type="hidden" id="loading">.....</button>
+                                    </div>
                                 </div>
-                                <div class="mb-4">
-                                    <input type="email" class="form-control border-0 py-3" placeholder="Your Email">
-                                </div>
-                                <div class="mb-4">
-                                    <input type="text" class="form-control border-0 py-3" placeholder="Project">
-                                </div>
-                                <div class="mb-4">
-                                    <textarea class="w-100 form-control border-0 py-3" rows="6" cols="10" placeholder="Message"></textarea>
-                                </div>
-                                <div class="text-start">
-                                    <button class="btn bg-primary text-white py-3 px-5" type="button">Send Message</button>
-                                </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div> 
         </div>
         <!-- Contact End -->
-
 @endsection

@@ -39,6 +39,7 @@
                 <a href="{{url('team')}}" class="nav-item nav-link">Our Team</a>
                 <a href="{{url('photo_gallery')}}" class="nav-item nav-link">Photo Gallery</a>
                 <a href="{{url('contact')}}" class="nav-item nav-link">Contact</a>
+                <button class="btn btn-info"><a href="{{url('admission')}}" class="nav-item nav-link text-dark" style="margin-left: 18%;" target="_blank">Admission</a></button>
             </div>
            
         </div>
