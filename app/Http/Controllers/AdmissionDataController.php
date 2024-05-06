@@ -20,6 +20,42 @@ class AdmissionDataController extends Controller
         if ($request->ajax()) {
             $data = student_admission::all();
             return Datatables::of($data)->addIndexColumn()
+                ->addColumn('course',function($row){
+                    if($row->course == 1)
+                    {
+                        return 'Basic Computer';
+                    }
+                    elseif($row->course == 2)
+                    {
+                        return 'Professional Graphic Design';
+                    }
+                    elseif($row->course == 3)
+                    {
+                        return 'Web Design';
+                    }
+                    elseif($row->course == 4)
+                    {
+                        return 'Web Development';
+                    }
+                    elseif($row->course == 5)
+                    {
+                        return 'Android App Development';
+                    }
+                    elseif($row->course == 6)
+                    {
+                        return 'Search Engine Optimization (SEO)';
+                    }
+                })
+                ->addColumn('course_type',function($row){
+                    if($row->course_type == 1)
+                    {
+                        return 'Industrial';
+                    }
+                    elseif($row->course_type == 2)
+                    {
+                        return 'Regular';
+                    }
+                })
                 ->addColumn('read',function($row)
                 {
                     if($row->read == 1)

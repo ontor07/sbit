@@ -30,12 +30,44 @@
                                 <tr>
                                     <th>Course Name</th>
                                     <td>:</td>
-                                    <td>{{$data->course}}</td>
+                                    <td>
+                                        @if($data->course == 1)
+                                        <span>Basic Computer</span>
+                                        @endif
+                                        @if($data->course == 2)
+                                        <span>Professional Graphic Design</span>
+                                        @endif
+
+                                        @if($data->course == 3)
+                                        <span>Web Design</span>
+                                        @endif
+
+                                        @if($data->course == 4)
+                                        <span>Web Development</span>
+                                        @endif
+
+                                        @if($data->course == 5)
+                                        <span>Android App Development</span>
+                                        @endif
+                                        
+                                        @if($data->course == 6)
+                                        <span>Search Engine Optimization (SEO)</span>
+                                        @endif
+
+                                    </td>
                                 </tr>
                                 <tr>
                                     <th>Course Type</th>
                                     <td>:</td>
-                                    <td>{{$data->course_type}}</td>
+                                    <td>
+                                        @if($data->course_type == 1)
+                                        <span>Industrial<span>
+                                        @endif
+
+                                        @if($data->course_type == 2)
+                                        <span>Regular</span>
+                                        @endif
+                                    </td>
                                 </tr>
                             </table>
 

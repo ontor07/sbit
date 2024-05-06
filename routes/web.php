@@ -13,6 +13,7 @@ use App\Http\Controllers\BackendController;
 use App\Http\Controllers\UserThemeController;
 use App\Http\Controllers\MessageController;
 use App\Http\Controllers\AdmissionDataController;
+use App\Http\Controllers\TeamController;
 
 // fronted 
 use App\Http\Controllers\frontedController;
@@ -102,6 +103,7 @@ Route::middleware('auth')->group(function () {
         'user_theme' => UserThemeController::class,
         'messages' => MessageController::class,
         'admission_data' => AdmissionDataController::class,
+        'our_team' => TeamController::class,
    ]);
 
     Route::get('retrive_message/{id}', [MessageController::class, 'retrive_message']);
