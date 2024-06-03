@@ -16,11 +16,14 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                     <div class="dropdown-menu bg-light mt-2">
                         <a href="{{url('/graphic_design')}}" class="dropdown-item">Professional Graphic Design</a>
-                        <a href="{{url('/web_design')}}" class="dropdown-item">Professional Web Design</a>
-                        <a href="{{url('/web_dev')}}" class="dropdown-item">Professional Web Developement</a>
-                        <a href="{{url('/app_dev')}}" class="dropdown-item">Professional Android App Development</a>
+                        <a href="{{url('/web_design')}}" class="dropdown-item">Web Design</a>
+                        <a href="{{url('/web_dev')}}" class="dropdown-item">Software Developement</a>
+                        <a href="{{url('/')}}" class="dropdown-item">Web Application Development</a>
+                        <a href="{{url('/app_dev')}}" class="dropdown-item">Android App Development</a>
                         <!-- <a href="#" class="dropdown-item">Domain & Hosting Service</a> -->
-                        <a href="{{url('/seo')}}" class="dropdown-item">Professional Search Engine Optimization (SEO)</a>
+                        <a href="{{url('/seo')}}" class="dropdown-item">Digital Marketing</a>
+                        <a href="{{url('/')}}" class="dropdown-item">Data Entry</a>
+                        <a href="{{url('/')}}" class="dropdown-item">Any Customize Software</a>
                         <!-- <a href="#" class="dropdown-item">Internship</a> -->
                     </div>
                 </div>

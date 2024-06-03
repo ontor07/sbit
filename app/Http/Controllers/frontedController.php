@@ -73,6 +73,10 @@ class frontedController extends Controller
     {
         return view("fronted.photo_gallery");
     }
+    public function clients()
+    {
+        return view("fronted.clients");
+    }
     public function admission()
     {
         return view("fronted.admission");
