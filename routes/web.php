@@ -42,6 +42,7 @@ Route::controller(frontedController::class)->group(function () {
     Route::get('/ecommerce', 'ecommerce');
     Route::get('/seo', 'seo');
     Route::get('/team', 'team');
+    Route::get('/clients', 'clients');
     Route::get('/contact', 'contact');
     Route::get('/photo_gallery', 'photo_gallery');
     Route::post('/sendMessage', 'sendMessage');

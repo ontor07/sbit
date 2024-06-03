@@ -722,7 +722,25 @@ footer{
   transform: translateY(-10px);
 }
 
+/*  */
+.dropdown-item {
+  padding: 10px !important;
+  font-size: 14px !important;
+}
 
+.services-content-icon {
+  font-size: 5px;
+}
+
+.project-carousel .owl-item .project-item .border-top p {
+  font-size: 15px;
+}
+
+.project-carousel .owl-item .project-item .border-top img {
+  width: 20px;
+}
+
+/*  */
 .image-gallery {
   margin-top: 1rem;
   display: grid;
@@ -734,14 +752,23 @@ footer{
 .image-gallery img {
   background-position: top;
   background-size: cover;
-  height: 115px;
-  width: 130px;
+  height: 200px;
+  width: 244px;
   cursor: pointer;
   transition: all 0.2s;
+  padding: 26px;
 }
 .image-gallery img:hover {
   box-shadow: none;
   transform: scale(1.1);
+}
+
+.client-name {
+  font-size: 13px;
+  padding: 16px;
+  background: #000;
+  color: #fff;
+  text-align: center;
 }
 
 .banner_text ul {
@@ -802,4 +829,30 @@ footer{
 .image_gallery img:hover {
   box-shadow: none;
   transform: scale(1.1);
+}
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 220px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  padding: 40px;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  background: #2c2f35;
 }
