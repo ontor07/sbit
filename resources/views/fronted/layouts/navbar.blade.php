@@ -18,12 +18,12 @@
                         <a href="{{url('/graphic_design')}}" class="dropdown-item">Professional Graphic Design</a>
                         <a href="{{url('/web_design')}}" class="dropdown-item">Web Design</a>
                         <a href="{{url('/web_dev')}}" class="dropdown-item">Software Developement</a>
-                        <a href="{{url('/')}}" class="dropdown-item">Web Application Development</a>
                         <a href="{{url('/app_dev')}}" class="dropdown-item">Android App Development</a>
+                        <a href="{{url('/web_app')}}" class="dropdown-item">Web Application Development</a>
                         <!-- <a href="#" class="dropdown-item">Domain & Hosting Service</a> -->
                         <a href="{{url('/seo')}}" class="dropdown-item">Digital Marketing</a>
                         <a href="{{url('/data_entry')}}" class="dropdown-item">Data Entry</a>
-                        <a href="{{url('/')}}" class="dropdown-item">Any Customize Software</a>
+                        <a href="{{url('/customize')}}" class="dropdown-item">Any Customize Software</a>
                         <!-- <a href="#" class="dropdown-item">Internship</a> -->
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                 <a href="{{url('team')}}" class="nav-item nav-link">Our Team</a>
                 <a href="{{url('photo_gallery')}}" class="nav-item nav-link">Photo Gallery</a>
                 <a href="{{url('contact')}}" class="nav-item nav-link">Contact</a>
-                <button class="btn btn-info"><a href="{{url('admission')}}" class="nav-item nav-link text-dark" style="margin-left: 18%;" target="_blank">Admission</a></button>
+                <a href="{{url('admission')}}" class="nav-item nav-link text-dark" target="_blank"><button class="btn btn-info">Admission</button></a>
             </div>
            
         </div>

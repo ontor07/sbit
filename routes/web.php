@@ -44,6 +44,8 @@ Route::controller(frontedController::class)->group(function () {
     Route::get('/team', 'team');
     Route::get('/clients', 'clients');
     Route::get('/data_entry', 'data_entry');
+    Route::get('/web_app', 'web_app');
+    Route::get('/customize', 'customize');
     Route::get('/contact', 'contact');
     Route::get('/photo_gallery', 'photo_gallery');
     Route::post('/sendMessage', 'sendMessage');
