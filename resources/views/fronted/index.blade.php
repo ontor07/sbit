@@ -322,100 +322,6 @@
         </div>
         <!-- Fact End -->
   
-
-
-
-
-
-        <!-- Team Start -->
-        <!-- <div class="container-fluid py-5  team">
-            <div class="container">
-                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
-                    <h1 class="text-primary">Our Team</h1>
-                    <h5>Meet our expert Team</h5>
-                </div>
-                <div class="owl-carousel team-carousel wow fadeIn" data-wow-delay=".5s">
-                    <div class="rounded team-item">
-                        <div class="team-content">
-                            <div class="team-img-icon">
-                                <div class="team-img rounded-circle">
-                                    <img src="{{ asset('') }}fronted/assets/img/team-1.jpg" class="img-fluid w-100 rounded-circle" alt="">
-                                </div>
-                                <div class="team-name text-center py-3">
-                                    <h4 class="">Full Name</h4>
-                                    <p class="m-0">Designation</p>
-                                </div>
-                                <div class="team-icon d-flex justify-content-center pb-4">
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="rounded team-item">
-                        <div class="team-content">
-                            <div class="team-img-icon">
-                                <div class="team-img rounded-circle">
-                                    <img src="{{ asset('') }}fronted/assets/img/team-2.jpg" class="img-fluid w-100 rounded-circle" alt="">
-                                </div>
-                                <div class="team-name text-center py-3">
-                                    <h4 class="">Full Name</h4>
-                                    <p class="m-0">Designation</p>
-                                </div>
-                                <div class="team-icon d-flex justify-content-center pb-4">
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="rounded team-item">
-                        <div class="team-content">
-                            <div class="team-img-icon">
-                                <div class="team-img rounded-circle">
-                                    <img src="{{ asset('') }}fronted/assets/img/team-3.jpg" class="img-fluid w-100 rounded-circle" alt="">
-                                </div>
-                                <div class="team-name text-center py-3">
-                                    <h4 class="">Full Name</h4>
-                                    <p class="m-0">Designation</p>
-                                </div>
-                                <div class="team-icon d-flex justify-content-center pb-4">
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="rounded team-item">
-                        <div class="team-content">
-                            <div class="team-img-icon">
-                                <div class="team-img rounded-circle">
-                                    <img src="{{ asset('') }}fronted/assets/img/team-4.jpg" class="img-fluid w-100 rounded-circle" alt="">
-                                </div>
-                                <div class="team-name text-center py-3">
-                                    <h4 class="">Full Name</h4>
-                                    <p class="m-0">Designation</p>
-                                </div>
-                                <div class="team-icon d-flex justify-content-center pb-4">
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Team End -->
-
         <!-- Testimonial Start -->
         <div class="container-fluid testimonial py-5 ">
             <div class="container">
@@ -509,27 +415,6 @@
                             <p class="mb-0"></p>
                         </div>
                     </div>
-                    <!-- <div class="testimonial-item border p-4">
-                        <div class=" d-flex align-items-center">
-                            <div class="">
-                                <img src="{{ asset('') }}fronted/assets/img/manicon.png" alt="">
-                            </div>
-                            <div class="ms-4">
-                                <h5 class="text-secondary">Omar Faruque</h5>
-                                <p class="m-0 pb-3">Head Teacher, Al Helal Academy</p>
-                                <div class="d-flex pe-5">
-                                    <i class="fas fa-star me-1 text-primary"></i>
-                                    <i class="fas fa-star me-1 text-primary"></i>
-                                    <i class="fas fa-star me-1 text-primary"></i>
-                                    <i class="fas fa-star me-1 text-primary"></i>
-                                    <i class="fas fa-star me-1 text-primary"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="border-top mt-4 pt-3">
-                            <p class="mb-0"></p>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -572,11 +457,6 @@
                                         </a>
                                     </li>
                                 </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-12 wow fadeIn ">
-                            <div class="support-right ">
-                                <img src="{{ asset('') }}fronted/assets/img/support-img.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>

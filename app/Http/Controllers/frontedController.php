@@ -77,6 +77,10 @@ class frontedController extends Controller
     {
         return view("fronted.clients");
     }
+    public function data_entry()
+    {
+        return view("fronted.data_entry");
+    }
     public function admission()
     {
         return view("fronted.admission");

@@ -22,7 +22,7 @@
                         <a href="{{url('/app_dev')}}" class="dropdown-item">Android App Development</a>
                         <!-- <a href="#" class="dropdown-item">Domain & Hosting Service</a> -->
                         <a href="{{url('/seo')}}" class="dropdown-item">Digital Marketing</a>
-                        <a href="{{url('/')}}" class="dropdown-item">Data Entry</a>
+                        <a href="{{url('/data_entry')}}" class="dropdown-item">Data Entry</a>
                         <a href="{{url('/')}}" class="dropdown-item">Any Customize Software</a>
                         <!-- <a href="#" class="dropdown-item">Internship</a> -->
                     </div>
