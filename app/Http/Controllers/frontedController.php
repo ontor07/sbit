@@ -81,6 +81,14 @@ class frontedController extends Controller
     {
         return view("fronted.data_entry");
     }
+    public function web_app()
+    {
+        return view("fronted.web_app");
+    }
+    public function customize()
+    {
+        return view("fronted.customize");
+    }
     public function admission()
     {
         return view("fronted.admission");

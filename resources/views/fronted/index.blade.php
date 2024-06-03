@@ -239,48 +239,58 @@
                     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
                         <div class="row">
                             <div class="image-gallery">
-                                <div>
-                                    <img src="{{ asset('') }}fronted/assets/img/fgc.png" alt="" class="img-fluid">
-                                    <div class="client-name">Feni Government College</div>
-                                </div>
-                                <div>
-                                    <img src="{{ asset('') }}fronted/assets/img/fpi.png" alt="" class="img-fluid">
-                                    <div class="client-name">Feni Polytechnic Institute</div>
-                                </div>
-                                <div>
-                                    <img src="{{ asset('') }}fronted/assets/img/fci.jpg" alt="" class="img-fluid">
-                                    <div class="client-name">Feni Computer Institute</div>
-                                </div>
-                                <div>
-                                    <img src="{{ asset('') }}fronted/assets/img/spi.png" alt="" class="img-fluid">
-                                    <div class="client-name">Sylhet Polytechnic Institute</div>
-                                </div>
-                                <div>
-                                    <img src="{{ asset('') }}fronted/assets/img/zmc.png" alt="" class="img-fluid">
-                                    <div class="client-name">Feni Government Zia Mohila College</div>
-                                </div>
-                                <div>
-                                    <img src="{{ asset('') }}fronted/assets/img/imc.jpg" alt="" class="img-fluid">
-                                    <div class="client-name">Feni Iqbal Memorial Govt. College</div>
-                                </div>
-                                <div>
-                                    <img src="{{ asset('') }}fronted/assets/img/ibrahimkhagc.png" alt="" class="img-fluid">
-                                    <div class="client-name">Tangail Ibrahim Kha Government College</div>
-                                </div>
-                                <div>
-                                    <img src="{{ asset('') }}fronted/assets/img/cphs.png" alt="" class="img-fluid">
-                                    <div class="client-name">Chhagalnaiya Government Pilot High School</div>
-                                </div>
-                                <div>
-                                    <img src="{{ asset('') }}fronted/assets/img/ccgc.png" alt="" class="img-fluid">
-                                    <div class="client-name">Chauddagram Government College</div>
-                                </div>
-                                <div>
-                                    <img src="{{ asset('') }}fronted/assets/img/pmths.jpg" alt="" class="img-fluid">
-                                    <div class="client-name">Purana Mogholtuli High School</div>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img src="{{ asset('') }}fronted/assets/img/fgc.png" alt="" class="img-fluid">
+                                        <div class="client-name">Feni Govt. College</div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="{{ asset('') }}fronted/assets/img/fpi.png" alt="" class="img-fluid">
+                                        <div class="client-name">Feni Polytechnic Institute</div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="{{ asset('') }}fronted/assets/img/fci.jpg" alt="" class="img-fluid">
+                                        <div class="client-name">Feni Computer Institute</div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="{{ asset('') }}fronted/assets/img/spi.png" alt="" class="img-fluid">
+                                        <div class="client-name">Sylhet Polytechnic Institute</div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="{{ asset('') }}fronted/assets/img/zmc.png" alt="" class="img-fluid">
+                                        <div class="client-name">Feni Govt. Zia Mohila College</div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="{{ asset('') }}fronted/assets/img/imc.jpg" alt="" class="img-fluid">
+                                        <div class="client-name">Feni Iqbal Memorial Govt. College</div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="{{ asset('') }}fronted/assets/img/ibrahimkhagc.png" alt="" class="img-fluid">
+                                        <div class="client-name">Tangail Ibrahim Kha Govt. College</div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="{{ asset('') }}fronted/assets/img/cphs.png" alt="" class="img-fluid">
+                                        <div class="client-name">Chhagalnaiya Govt. Pilot High School</div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="{{ asset('') }}fronted/assets/img/ccgc.png" alt="" class="img-fluid">
+                                        <div class="client-name">Chauddagram Govt. College</div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="{{ asset('') }}fronted/assets/img/pmths.jpg" alt="" class="img-fluid">
+                                        <div class="client-name">Habiganj Shahjalal Govt. College</div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="{{ asset('') }}fronted/assets/img/pmths.jpg" alt="" class="img-fluid">
+                                        <div class="client-name">Dhaka Purana Mogholtuli High School</div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="{{ asset('') }}fronted/assets/img/metro.jpg" alt="" class="img-fluid">
+                                        <div class="client-name">Dhaka Metropolitan School & College</div>
+                                    </div>
                                 </div>
                             </div>
-                            <a href="{{'/clients'}}"><button class="btn btn-primary" style="float: right;margin-top: 33px;">See More</button><br><br></a><br><br>
+                            <a href="{{'/clients'}}"><button class="btn btn-info" style="float: right;margin-top: 33px;">See More</button><br><br></a><br><br>
                         </div>
                     </div>
                     <!-- all data end -->
@@ -401,7 +411,7 @@
                             </div>
                             <div class="ms-4">
                                 <h5 class="text-secondary">Mohammad Moazzem Hossain</h5>
-                                <p class="m-0 pb-3">Principal, Chagalnaya Government Pilot High School</p>
+                                <p class="m-0 pb-3">Principal, Chagalnaya Govt. Pilot High School</p>
                                 <div class="d-flex pe-5">
                                     <i class="fas fa-star me-1 text-primary"></i>
                                     <i class="fas fa-star me-1 text-primary"></i>

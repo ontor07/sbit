@@ -51,123 +51,125 @@
                         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
                             <div class="row">
                                 <div class="image-gallery">
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/dubai2bd.jpg" alt="" class="img-fluid">
-                                        <div class="client-name">Dubai2BD</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/buynfeel.png" alt="" class="img-fluid">
-                                        <div class="client-name">Buynfeel</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{asset('') }}Fronted/assets/img/feniex.jpg" alt="" class="img-fluid">
-                                        <div class="client-name">FeniExpress</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/amcables.png" alt="" class="img-fluid">
-                                        <div class="client-name">Am Cables</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/fgc.png" alt="" class="img-fluid">
-                                        <div class="client-name">Feni Government College</div>         
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/zmc.png" alt="" class="img-fluid">
-                                        <div class="client-name">Feni Government Zia Mohila College</div>     
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/ibrahimkhagc.png" alt="" class="img-fluid">
-                                        <div class="client-name">Tangail Ibrahim Kha Government College</div>   
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/arifenter.png" alt="" class="img-fluid">
-                                        <div class="client-name">Arif Enterprise</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/bhorbazar.png" alt="" class="img-fluid">
-                                        <div class="client-name">Bhorbazar Poultry</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/cpc.png" alt="" class="img-fluid">
-                                        <div class="client-name">Chowdhary Poultry Complex</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/cgc.jpg" alt="" class="img-fluid">
-                                        <div class="client-name">Chhagalnaiya Government College</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/fenireport.jpg" alt="" class="img-fluid">
-                                        <div class="client-name">Feni Report</div>   
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/5.png" alt="" class="img-fluid">
-                                        <div class="client-name">Feni News</div>     
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/nb52.jpg" alt="" class="img-fluid">
-                                        <div class="client-name">News Bangla 52</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/shahosikantho.png" alt="" class="img-fluid">
-                                        <div class="client-name">Shahosi Kantho</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/banglanewsfeeds.png" alt="" class="img-fluid">
-                                        <div class="client-name">BanglaNewsFeeds.com</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/chhagalnaiya.png" alt="" class="img-fluid">
-                                        <div class="client-name">Chhagalnaiya.com</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/cgc.png" alt="" class="img-fluid">
-                                        <div class="client-name">Chauddagram Government College</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/fixedc.jpg" alt="" class="img-fluid">
-                                        <div class="client-name">Fixed Courier</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/cphs.png" alt="" class="img-fluid">
-                                        <div class="client-name">Chhagalnaiya Government Pilot High School</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/cpghs.png" alt="" class="img-fluid">
-                                        <div class="client-name">Chhagalnaiya Government Girls Pilot High School</div>
-                                    </div>
-                                    
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/metro.jpg" alt="" class="img-fluid">
-                                        <div class="client-name">Metropolitan School and College</div> 
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/pmths.jpg" alt="" class="img-fluid">
-                                        <div class="client-name">Purana Mogholtuli High School</div>
-                                    </div>
-                                    
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/dubaigallery.jpeg" alt="" class="img-fluid">
-                                        <div class="client-name">Dubai Gallery</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/c-1.png" alt="" class="img-fluid">
-                                        <div class="client-name">Muktir Ekattor</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/freebazarbd.jpg" alt="" class="img-fluid">
-                                        <div class="client-name">Free Bazar BD</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/fenisupernet.png" alt="" class="img-fluid">
-                                        <div class="client-name">Feni Supernet</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/itpark.png" alt="" class="img-fluid">
-                                        <div class="client-name">Chhagalnaiya Government Pilot High School</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/motomotion.png" alt="" class="img-fluid">
-                                        <div class="client-name">Motomotion BD</div>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/dubai2bd.jpg" alt="" class="img-fluid">
+                                            <div class="client-name">Dubai2BD</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/buynfeel.png" alt="" class="img-fluid">
+                                            <div class="client-name">Buynfeel</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{asset('') }}Fronted/assets/img/feniex.jpg" alt="" class="img-fluid">
+                                            <div class="client-name">FeniExpress</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/amcables.png" alt="" class="img-fluid">
+                                            <div class="client-name">Am Cables</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/fgc.png" alt="" class="img-fluid">
+                                            <div class="client-name">Feni Govt. College</div>         
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/zmc.png" alt="" class="img-fluid">
+                                            <div class="client-name">Feni Govt. Zia Mohila College</div>     
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/ibrahimkhagc.png" alt="" class="img-fluid">
+                                            <div class="client-name">Tangail Ibrahim Kha Govt. College</div>   
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/arifenter.png" alt="" class="img-fluid">
+                                            <div class="client-name">Arif Enterprise</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/bhorbazar.png" alt="" class="img-fluid">
+                                            <div class="client-name">Bhorbazar Poultry</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/cpc.png" alt="" class="img-fluid">
+                                            <div class="client-name">Chowdhary Poultry Complex</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/cgc.jpg" alt="" class="img-fluid">
+                                            <div class="client-name">Chhagalnaiya Govt. College</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/fenireport.jpg" alt="" class="img-fluid">
+                                            <div class="client-name">Feni Report</div>   
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/5.png" alt="" class="img-fluid">
+                                            <div class="client-name">Feni News</div>     
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/nb52.jpg" alt="" class="img-fluid">
+                                            <div class="client-name">News Bangla 52</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/shahosikantho.png" alt="" class="img-fluid">
+                                            <div class="client-name">Shahosi Kantho</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/banglanewsfeeds.png" alt="" class="img-fluid">
+                                            <div class="client-name">BanglaNewsFeeds.com</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/chhagalnaiya.png" alt="" class="img-fluid">
+                                            <div class="client-name">Chhagalnaiya.com</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/cgc.png" alt="" class="img-fluid">
+                                            <div class="client-name">Chauddagram Govt. College</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/fixedc.jpg" alt="" class="img-fluid">
+                                            <div class="client-name">Fixed Courier</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/cphs.png" alt="" class="img-fluid">
+                                            <div class="client-name">Chhagalnaiya Govt. Pilot High School</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/cpghs.png" alt="" class="img-fluid">
+                                            <div class="client-name">Chhagalnaiya Govt. Girls Pilot High School</div>
+                                        </div>
+                                        
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/metro.jpg" alt="" class="img-fluid">
+                                            <div class="client-name">Metropolitan School and College</div> 
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/pmths.jpg" alt="" class="img-fluid">
+                                            <div class="client-name">Purana Mogholtuli High School</div>
+                                        </div>
+                                        
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/dubaigallery.jpeg" alt="" class="img-fluid">
+                                            <div class="client-name">Dubai Gallery</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/c-1.png" alt="" class="img-fluid">
+                                            <div class="client-name">Muktir Ekattor</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/freebazarbd.jpg" alt="" class="img-fluid">
+                                            <div class="client-name">Free Bazar BD</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/fenisupernet.png" alt="" class="img-fluid">
+                                            <div class="client-name">Feni Supernet</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/itpark.png" alt="" class="img-fluid">
+                                            <div class="client-name">Chhagalnaiya Govt. Pilot High School</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/motomotion.png" alt="" class="img-fluid">
+                                            <div class="client-name">Motomotion BD</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -179,41 +181,43 @@
                         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
                             <div class="row">
                                 <div class="image-gallery">
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/dubai2bd.jpg" alt="" class="img-fluid">
-                                        <div class="client-name">Dubai2BD</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/buynfeel.png" alt="" class="img-fluid">
-                                        <div class="client-name">Buynfeel</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{asset('') }}Fronted/assets/img/feniex.jpg" alt="" class="img-fluid">
-                                        <div class="client-name">Feni Express</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/amcables.png" alt="" class="img-fluid">
-                                        <div class="client-name">Am Cables</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/dubaigallery.jpeg" alt="" class="img-fluid">
-                                        <div class="client-name">Dubai Gallery</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/freebazarbd.jpg" alt="" class="img-fluid">
-                                        <div class="client-name">Free Bazar BD</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/fenisupernet.png" alt="" class="img-fluid">
-                                        <div class="client-name">Feni Supernet</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/itpark.png" alt="" class="img-fluid">
-                                        <div class="client-name">IT Park</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/motomotion.png" alt="" class="img-fluid">
-                                        <div class="client-name">Motomotion BD</div>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/dubai2bd.jpg" alt="" class="img-fluid">
+                                            <div class="client-name">Dubai2BD</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/buynfeel.png" alt="" class="img-fluid">
+                                            <div class="client-name">Buynfeel</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{asset('') }}Fronted/assets/img/feniex.jpg" alt="" class="img-fluid">
+                                            <div class="client-name">Feni Express</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/amcables.png" alt="" class="img-fluid">
+                                            <div class="client-name">Am Cables</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/dubaigallery.jpeg" alt="" class="img-fluid">
+                                            <div class="client-name">Dubai Gallery</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/freebazarbd.jpg" alt="" class="img-fluid">
+                                            <div class="client-name">Free Bazar BD</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/fenisupernet.png" alt="" class="img-fluid">
+                                            <div class="client-name">Feni Supernet</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/itpark.png" alt="" class="img-fluid">
+                                            <div class="client-name">IT Park</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/motomotion.png" alt="" class="img-fluid">
+                                            <div class="client-name">Motomotion BD</div>
+                                        </div>
                                     </div>   
                                 </div>
                             </div>
@@ -224,45 +228,55 @@
                         <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
                             <div class="row">
                                 <div class="image-gallery">
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/fgc.png" alt="" class="img-fluid">
-                                        <div class="client-name">Feni Government College</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/fpi.png" alt="" class="img-fluid">
-                                        <div class="client-name">Feni Polytechnic Institute</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/fci.jpg" alt="" class="img-fluid">
-                                        <div class="client-name">Feni Computer Institute</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/spi.png" alt="" class="img-fluid">
-                                        <div class="client-name">Sylhet Polytechnic Institute</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/zmc.png" alt="" class="img-fluid">
-                                        <div class="client-name">Feni Government Zia Mohila College</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/imc.jpg" alt="" class="img-fluid">
-                                        <div class="client-name">Feni Iqbal Memorial Govt. College</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/ibrahimkhagc.png" alt="" class="img-fluid">
-                                        <div class="client-name">Tangail Ibrahim Kha Government College</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/cphs.png" alt="" class="img-fluid">
-                                        <div class="client-name">Chhagalnaiya Government Pilot High School</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/ccgc.png" alt="" class="img-fluid">
-                                        <div class="client-name">Chauddagram Government College</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/pmths.jpg" alt="" class="img-fluid">
-                                        <div class="client-name">Purana Mogholtuli High School</div>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/fgc.png" alt="" class="img-fluid">
+                                            <div class="client-name">Feni Govt. College</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/fpi.png" alt="" class="img-fluid">
+                                            <div class="client-name">Feni Polytechnic Institute</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/fci.jpg" alt="" class="img-fluid">
+                                            <div class="client-name">Feni Computer Institute</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/spi.png" alt="" class="img-fluid">
+                                            <div class="client-name">Sylhet Polytechnic Institute</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/zmc.png" alt="" class="img-fluid">
+                                            <div class="client-name">Feni Govt. Zia Mohila College</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/imc.jpg" alt="" class="img-fluid">
+                                            <div class="client-name">Feni Iqbal Memorial Govt. College</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/ibrahimkhagc.png" alt="" class="img-fluid">
+                                            <div class="client-name">Tangail Ibrahim Kha Govt. College</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/cphs.png" alt="" class="img-fluid">
+                                            <div class="client-name">Chhagalnaiya Govt. Pilot High School</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/ccgc.png" alt="" class="img-fluid">
+                                            <div class="client-name">Chauddagram Govt. College</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/pmths.jpg" alt="" class="img-fluid">
+                                            <div class="client-name">Habiganj Shahjalal Govt. College</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/3377.jpg" alt="" class="img-fluid">
+                                            <div class="client-name">Purana Mogholtuli High School</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/metro.jpg" alt="" class="img-fluid">
+                                            <div class="client-name">Metropolitan School & College</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -273,17 +287,19 @@
                         <div class="tab-pane fade" id="pills-inventory" role="tabpanel" aria-labelledby="pills-inventory-tab" tabindex="0">
                             <div class="row">
                                 <div class="image-gallery">
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/arifenter.png" alt="" class="img-fluid">
-                                        <div class="client-name">Arif Enterprise</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/bhorbazar.png" alt="" class="img-fluid">
-                                        <div class="client-name">Bhorbazar Poultry</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/cpc.png" alt="" class="img-fluid">
-                                        <div class="client-name">Chowdhary Poultry Complex</div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="{{ asset('') }}fronted/assets/img/arifenter.png" alt="" class="img-fluid">
+                                            <div class="client-name">Arif Enterprise</div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="{{ asset('') }}fronted/assets/img/bhorbazar.png" alt="" class="img-fluid">
+                                            <div class="client-name">Bhorbazar Poultry</div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="{{ asset('') }}fronted/assets/img/cpc.png" alt="" class="img-fluid">
+                                            <div class="client-name">Chowdhary Poultry Complex</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -294,33 +310,35 @@
                         <div class="tab-pane fade" id="pills-news" role="tabpanel" aria-labelledby="pills-news-tab" tabindex="0">
                             <div class="row">
                                 <div class="image-gallery">
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/c-1.png" alt="" class="img-fluid">
-                                        <div class="client-name">Muktir Ekattor</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/fenireport.jpg" alt="" class="img-fluid">
-                                        <div class="client-name">Feni Report</div>   
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/5.png" alt="" class="img-fluid">
-                                        <div class="client-name">Feni News</div>     
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/nb52.jpg" alt="" class="img-fluid">
-                                        <div class="client-name">News Bangla 52</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/shahosikantho.png" alt="" class="img-fluid">
-                                        <div class="client-name">Shahosi Kantho</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/banglanewsfeeds.png" alt="" class="img-fluid">
-                                        <div class="client-name">BanglaNewsFeeds.com</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/chhagalnaiya.png" alt="" class="img-fluid">
-                                        <div class="client-name">Chhagalnaiya.com</div>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/c-1.png" alt="" class="img-fluid">
+                                            <div class="client-name">Muktir Ekattor</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/fenireport.jpg" alt="" class="img-fluid">
+                                            <div class="client-name">Feni Report</div>   
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/5.png" alt="" class="img-fluid">
+                                            <div class="client-name">Feni News</div>     
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/nb52.jpg" alt="" class="img-fluid">
+                                            <div class="client-name">News Bangla 52</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/shahosikantho.png" alt="" class="img-fluid">
+                                            <div class="client-name">Shahosi Kantho</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/banglanewsfeeds.png" alt="" class="img-fluid">
+                                            <div class="client-name">BanglaNewsFeeds.com</div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="{{ asset('') }}fronted/assets/img/chhagalnaiya.png" alt="" class="img-fluid">
+                                            <div class="client-name">Chhagalnaiya.com</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -331,13 +349,15 @@
                         <div class="tab-pane fade" id="pills-other" role="tabpanel" aria-labelledby="pills-other-tab" tabindex="0">
                             <div class="row">
                                 <div class="image-gallery">
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/atlgroupbd.png" alt="" class="img-fluid">
-                                        <div class="client-name">ATL Group</div>
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/ns.png" alt="" class="img-fluid">
-                                        <div class="client-name">NS Enterprise</div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <img src="{{ asset('') }}fronted/assets/img/atlgroupbd.png" alt="" class="img-fluid">
+                                            <div class="client-name">ATL Group</div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="{{ asset('') }}fronted/assets/img/ns.png" alt="" class="img-fluid">
+                                            <div class="client-name">NS Enterprise</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -348,9 +368,11 @@
                         <div class="tab-pane fade" id="pills-courier" role="tabpanel" aria-labelledby="pills-courier-tab" tabindex="0">
                             <div class="row">
                                 <div class="image-gallery">
-                                    <div>
-                                        <img src="{{ asset('') }}fronted/assets/img/fixedc.jpg" alt="" class="img-fluid">
-                                        <div class="client-name">Fixed Courier</div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <img src="{{ asset('') }}fronted/assets/img/fixedc.jpg" alt="" class="img-fluid">
+                                            <div class="client-name">Fixed Courier</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
