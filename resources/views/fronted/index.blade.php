@@ -433,7 +433,7 @@
 
 
         <!-- support Start -->
-        <div class="container-fluid support py-5 ">
+        <!-- <div class="container-fluid support py-5 ">
             <div class="container">
                 <div class="support_main_content">
                     <div class="row">
@@ -454,7 +454,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
           
         <!-- support End -->
      
