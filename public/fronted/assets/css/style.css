@@ -888,10 +888,41 @@ p.m-0.pb-3 {
   margin-top: 1rem;
 }
 .image-gallery img {
-  margin-left: 53px;
+  margin-left: 100px;
 }
 .client-name {
-  font-size: 13px;
+  font-size: 14px;
+  padding: 20px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+.image-gallery img {
+  margin-left: 60px;
+}
+.client-name {
+  font-size: 12px;
+  padding: 6px;
+}
+}
+
+@media only screen and (max-width: 740px) {
+.image-gallery img {
+  margin-left: 50px;
+}
+.client-name {
+  font-size: 12px;
+  padding: 6px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+.image-gallery img {
+  margin-left: 90px;
+}
+.client-name {
+  font-size: 12px;
+  padding: 6px;
 }
 }
 
