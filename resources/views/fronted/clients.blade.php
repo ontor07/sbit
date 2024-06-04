@@ -266,11 +266,11 @@
                                             <div class="client-name">Chauddagram Govt. College</div>
                                         </div>
                                         <div class="col-md-2">
-                                            <img src="{{ asset('') }}fronted/assets/img/pmths.jpg" alt="" class="img-fluid">
+                                            <img src="{{ asset('') }}fronted/assets/img/3377.jpg" alt="" class="img-fluid">
                                             <div class="client-name">Habiganj Shahjalal Govt. College</div>
                                         </div>
                                         <div class="col-md-2">
-                                            <img src="{{ asset('') }}fronted/assets/img/3377.jpg" alt="" class="img-fluid">
+                                            <img src="{{ asset('') }}fronted/assets/img/pmths.jpg" alt="" class="img-fluid">
                                             <div class="client-name">Purana Mogholtuli High School</div>
                                         </div>
                                         <div class="col-md-2">

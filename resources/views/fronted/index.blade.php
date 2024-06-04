@@ -240,51 +240,51 @@
                         <div class="row">
                             <div class="image-gallery">
                                 <div class="row">
-                                    <div class="col-md-2">
+                                    <div class="col-md-2 col-sm-6">
                                         <img src="{{ asset('') }}fronted/assets/img/fgc.png" alt="" class="img-fluid">
                                         <div class="client-name">Feni Govt. College</div>
                                     </div>
-                                    <div class="col-md-2">
+                                    <div class="col-md-2 col-sm-6">
                                         <img src="{{ asset('') }}fronted/assets/img/fpi.png" alt="" class="img-fluid">
                                         <div class="client-name">Feni Polytechnic Institute</div>
                                     </div>
-                                    <div class="col-md-2">
+                                    <div class="col-md-2 col-sm-6">
                                         <img src="{{ asset('') }}fronted/assets/img/fci.jpg" alt="" class="img-fluid">
                                         <div class="client-name">Feni Computer Institute</div>
                                     </div>
-                                    <div class="col-md-2">
+                                    <div class="col-md-2 col-sm-6">
                                         <img src="{{ asset('') }}fronted/assets/img/spi.png" alt="" class="img-fluid">
                                         <div class="client-name">Sylhet Polytechnic Institute</div>
                                     </div>
-                                    <div class="col-md-2">
+                                    <div class="col-md-2 col-sm-6">
                                         <img src="{{ asset('') }}fronted/assets/img/zmc.png" alt="" class="img-fluid">
                                         <div class="client-name">Feni Govt. Zia Mohila College</div>
                                     </div>
-                                    <div class="col-md-2">
+                                    <div class="col-md-2 col-sm-6">
                                         <img src="{{ asset('') }}fronted/assets/img/imc.jpg" alt="" class="img-fluid">
                                         <div class="client-name">Feni Iqbal Memorial Govt. College</div>
                                     </div>
-                                    <div class="col-md-2">
+                                    <div class="col-md-2 col-sm-6">
                                         <img src="{{ asset('') }}fronted/assets/img/ibrahimkhagc.png" alt="" class="img-fluid">
                                         <div class="client-name">Tangail Ibrahim Kha Govt. College</div>
                                     </div>
-                                    <div class="col-md-2">
+                                    <div class="col-md-2 col-sm-6">
                                         <img src="{{ asset('') }}fronted/assets/img/cphs.png" alt="" class="img-fluid">
                                         <div class="client-name">Chhagalnaiya Govt. Pilot High School</div>
                                     </div>
-                                    <div class="col-md-2">
+                                    <div class="col-md-2 col-sm-6">
                                         <img src="{{ asset('') }}fronted/assets/img/ccgc.png" alt="" class="img-fluid">
                                         <div class="client-name">Chauddagram Govt. College</div>
                                     </div>
-                                    <div class="col-md-2">
-                                        <img src="{{ asset('') }}fronted/assets/img/pmths.jpg" alt="" class="img-fluid">
+                                    <div class="col-md-2 col-sm-6">
+                                        <img src="{{ asset('') }}fronted/assets/img/3377.jpg" alt="" class="img-fluid">
                                         <div class="client-name">Habiganj Shahjalal Govt. College</div>
                                     </div>
-                                    <div class="col-md-2">
+                                    <div class="col-md-2 col-sm-6">
                                         <img src="{{ asset('') }}fronted/assets/img/pmths.jpg" alt="" class="img-fluid">
                                         <div class="client-name">Dhaka Purana Mogholtuli High School</div>
                                     </div>
-                                    <div class="col-md-2">
+                                    <div class="col-md-2 col-sm-6">
                                         <img src="{{ asset('') }}fronted/assets/img/metro.jpg" alt="" class="img-fluid">
                                         <div class="client-name">Dhaka Metropolitan School & College</div>
                                     </div>
@@ -445,24 +445,6 @@
                                     <li>
                                         <a href="#" class="support-box">
                                             <i class="fas fa-comment-alt"></i>
-                                            <p>Sales Live Chat</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="support-box support-ticket">
-                                            <i class="fas fa-ticket-alt"></i>
-                                            <p>Sales Live Chat</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="support-box support-call">
-                                            <i class="fas fa-phone-square-alt"></i>
-                                            <p>Sales Live Chat</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="support-box support-email">
-                                            <i class="fas fa-envelope-open-text"></i>
                                             <p>Sales Live Chat</p>
                                         </a>
                                     </li>
