@@ -768,7 +768,7 @@ footer{
 
 .client-name {
   font-size: 12px;
-  padding: 10px;
+  padding: 12px;
   background: #f0e9e9;
   color: #000;
   font-weight: 500;
@@ -922,7 +922,7 @@ p.m-0.pb-3 {
 }
 .client-name {
   font-size: 12px;
-  padding: 6px;
+  padding: 10px;
 }
 }
 
