@@ -10,22 +10,20 @@ form {
 }
 form input, form textarea, form select {
   border: 0;
-    outline: 0;
-    padding: 1em;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
-    display: block;
-    width: 70%;
-    margin-top: 1em;
-    margin-left: 6em;
-    margin-bottom: 1em;
-    font-family: 'Merriweather', sans-serif;
-    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    box-shadow: 14px 1px 11px 5px rgba(10, 2, 5, 2.1);
-    resize: none;
-    opacity: 0.9;
+  outline: 0;
+  padding: 1em;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  display: block;
+  width: 70%;
+  margin-top: 1em;
+  margin-left: 6em;
+  margin-bottom: 1em;
+  font-family: 'Merriweather', sans-serif;
+  resize: none;
+  opacity: 0.9;
+  box-shadow: 3px 3px 0px #999;
 }
 form input:focus, form textarea, form select:focus {
   -moz-box-shadow: 0 0px 2px #e74c3c !important;
@@ -34,10 +32,10 @@ form input:focus, form textarea, form select:focus {
 }
 form #submit {
   color: white;
-    cursor: pointer;
-    opacity: inherit;
-    margin-left: 8px;
-    box-shadow: none;
+  cursor: pointer;
+  opacity: inherit;
+  margin-left: 8px;
+  box-shadow: none;
 }
 form #submit:hover {
   -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
@@ -58,6 +56,7 @@ form textarea {
 
 .left {
   margin-right: 2%;
+  background: #d8d8d8;
 }
 
 @media (max-width: 480px) {
@@ -105,9 +104,6 @@ form #submit {
     margin-bottom: 9px;
 }
 
-form{
-  background-image: url("{{ asset('') }}fronted/assets/img/flat-illustration-abstract-transformed.jpeg");
-}
 
 .form_text {
     padding: 7px;
